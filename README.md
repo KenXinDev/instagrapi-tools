@@ -24,6 +24,13 @@ pip install -r requirements.txt
 
 ---
 
+### 🔑 Login option
+Buka 'assets/config.py' dan masukan username dan password
+```python
+USERNAME = "Isi username akunmu"
+PASSWORD = "Isi password akunmu"
+```
+
 ### ⚙️ Cara Penggunaan
 
 ```bash
