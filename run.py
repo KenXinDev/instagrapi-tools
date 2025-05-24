@@ -334,7 +334,7 @@ class InstagramManager:
                 response = self.cl.user_follow(userid)
                 if response is True:
                     success.append(userid)
-                    KenXinDev(Panel(Panel(f"[bold white]Berhasil follow ke userid : \n[+] Username : [bold green]{username}[/bold green]\n[+] Userid : [bold green]{userid}[/bold green]\n[+] Response : [bold green]{response}[/]", style='bold green'), width=80, style='bold bright_black', title='[bold green]Success[/bold green]'))
+                    KenXinDev(Panel(Panel(f"[bold white][+] Berhasil follow ke userid\n[+] Username : [bold green]{username}[/bold green]\n[+] Userid : [bold green]{userid}[/bold green]\n[+] Response : [bold green]{response}[/]", style='bold green'), width=80, style='bold bright_black', title='[bold green]Success[/bold green]'))
                     time.sleep(random.choice(random_sleep))
                     break
                 else:
